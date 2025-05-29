@@ -1,0 +1,14 @@
+const express = require("express");
+const router = express.Router();
+const authMiddleware = require("../middlewares/authMidddleware");
+const controller = require("../controllers/bookingController");
+
+// رزرو جدید
+
+router.post("/", authMiddleware, controller.createBooking);
+
+// دریافت رزروهای کاربر
+
+router.get("/me", authMiddleware, controller.getMyBookings);
+
+module.exports = router;
