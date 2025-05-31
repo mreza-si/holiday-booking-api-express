@@ -1,16 +1,17 @@
-# 🌍 Holiday Booking API
+# 🌍 Holiday Booking API – Express Version
 
-A RESTful backend API for a holiday booking platform, built with Node.js, Express, and MongoDB.
+A RESTful backend API for a holiday booking platform, built with **Node.js (Express)** and **MongoDB**.
 
-## ✨ Features
+---
 
-- ✅ User registration & login (JWT auth)
-- ✅ Destination management (CRUD + filtering)
-- ✅ Booking destinations (user-specific)
-- ✅ Payment simulation (based on destination price)
-- ✅ API documentation via Postman
-- ✅ Modular folder structure and clean code
-- ✅ Error handling and proper status codes
+## 🚀 Features
+
+- ✅ JWT-based User Authentication
+- ✅ Destination CRUD with Filtering (location, price, rating)
+- ✅ Booking System for Logged-in Users
+- ✅ Simulated Payment Checkout
+- ✅ Modular File Structure
+- ✅ Postman Collection Included
 
 ---
 
@@ -20,15 +21,16 @@ A RESTful backend API for a holiday booking platform, built with Node.js, Expres
 - MongoDB + Mongoose
 - JWT for authentication
 - Postman for API testing
-- (Optional) CSV/PDF export & deployment ready
 
 ---
 
 ## 📬 Postman Collection
 
-You can view and test all API endpoints in this public Postman collection:
+You can test the API using this Postman Collection:
 
-🔗 [Postman Collection (Holiday Booking API)](https://postman.co/workspace/My-Workspace~bc823e30-0707-41b9-8a18-64b551e27afc/collection/36641054-0576d899-4111-4643-9be7-f7ab960e1aec?action=share&creator=36641054)
+🔗 [Holiday Booking API – Express (Postman)](https://www.postman.com/spaceflight-astronomer-40843412/workspace/booking-holiday-api-express/collection/36641054-0576d899-4111-4643-9be7-f7ab960e1aec?action=share&creator=36641054)
+
+> Open this link in browser or import it into Postman directly.
 
 ---
 
